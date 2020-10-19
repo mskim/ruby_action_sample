@@ -34,5 +34,5 @@ jobs:
     - name: copy generated files back
     - uses: mikeal/publish-to-github-action@master
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.MINSOO }}
         BRANCH_NAME: 'main' #optional defaults to master
