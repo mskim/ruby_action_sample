@@ -31,3 +31,8 @@ jobs:
       run: bundle install
     - name: Run tests
       run: bundle exec rake
+    - name: copy generated files back
+    - uses: mikeal/publish-to-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH_NAME: 'main' #optional defaults to master
