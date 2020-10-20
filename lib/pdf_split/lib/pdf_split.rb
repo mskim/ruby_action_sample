@@ -12,7 +12,7 @@ module PdfSplit
       @path = project_path  #string타입...
       split_pdf
       make_folder
-      make_jpg(ratio: 2)
+      # make_jpg(ratio: 2)
       self
     end
 
