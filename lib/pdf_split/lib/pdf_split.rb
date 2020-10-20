@@ -1,5 +1,5 @@
 # require "pdf_split/version"
-require 'vips'
+# require 'vips'
 require 'hexapdf'
 # require 'pry'
 
